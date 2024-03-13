@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
-import styles from './styles'
+import styles from './style'
 
-const Title = (title) => {
+const Title = ({title}) => {
   return (
     <View>
       <Text style={styles.title}>{title}</Text>
